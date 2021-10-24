@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="C:\Users\91918\Music\new-project\train-ticket\target/train-ticket.zip">
+    <zipfileset includes="lib/**" dir="C:\Users\91918\Music\new-project\train-ticket\target"/>
+    <zipfileset includes="train-ticket.jar" dir="C:\Users\91918\Music\new-project\train-ticket\target"/>
+    <zipfileset includes="readme.txt" dir="C:\Users\91918\Music\new-project\train-ticket"/>
+  </zip>
+</target>
+</project>
